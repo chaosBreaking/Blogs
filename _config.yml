@@ -1,0 +1,165 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 还没想好
+subtitle: still 没想好
+description: ？
+author: Zexus
+language: zh-CN
+timezone: Asia/Shanghai
+
+# Set default keywords (Use a comma to separate)
+keywords: "blockchain,tic,ethereum,node,python..."
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://chaosBreaking.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+- 404.html
+- README.md
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true 
+  auto_detect: false
+  tab_replace:
+  
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 20
+  order_by: -date
+  
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY年MM月DD日
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 20
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: next 
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+- type: git
+  repo: git@github.com:chaosBreaking/chaosBreaking.github.io.git
+
+# Local Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+# Hexo neat
+## compress the code generated as the bug of transition of md to html
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: true
+  exclude:
+  - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+  - '*.min.js'
+
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki/
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: false
+    linkify: false
+    typographer: false 
+#    quotes: '“”‘’'
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    #permalink: true
+    #permalinkClass: header-anchor
+    permalinkSymbol: ¶
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  model: haru01 # The model that you are willing to show. default: z16
+  width: 200 # The width of your model. default: 150
+  height: 400 # The height of your model. default: 300
+  scaling: 1 # The scaling of the resolution. default: 2
+  opacityDefault: 0.7 # The default opacity. default: 0.7
+  opacityHover: 1 # The opacity when hover. default: 1
+  mobileShow: true # Whether to show on mobile devices. default: true
+  mobileScaling: 0.6 # The scaling on mobile. default: 0.5
+  position: left # Which side the model is shown at. default: right
+  horizontalOffset: 0 # The horizontal offset. default: 0
+  verticalOffset: 0 # The offset of the bottom. default: -20
+  id: live2dcanvas # The ID of the live2d element. default: live2dcanvas
+  deviceJsSource: local # The source of the current-device script. default: local
+
+# Post wordcount display settings
+# Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+
+# Test webhook 1
