@@ -154,16 +154,16 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/saplf || github
-  E-Mail: mailto:LimoSaplf@gmail.com || envelope
-  #Google: https://plus.google.com/saplf || google
-  Twitter: https://twitter.com/LimoSaplf || twitter
+  GitHub: https://github.com/chaosBreaking || github
+  E-Mail: mailto:x491807573@qq.com || envelope
+  #Google: https://plus.google.com/ || google
+  Twitter: https://twitter.com/NovaOPX || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
   #YouTube: https://youtube.com/yourname || youtube
-  #Instagram: https://instagram.com/saplf || instagram
-  Telegram: https://t.me/saplf || telegram
+  #Instagram: https://instagram.com/ || instagram
+  #Telegram: https://t.me/ || telegram
   #Skype: skype:yourname?call|chat || skype
 
 social_icons:
@@ -179,7 +179,7 @@ social_icons:
 # Usage: `permalink || title`
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the title and aria-label name.
-github_banner: https://github.com/saplf || Follow me on GitHub
+github_banner: https://github.com/chaosBreaking || Follow me on GitHub
 
 # Blog rolls
 links_icon: link
@@ -451,7 +451,7 @@ pangu: false
 # Disqus
 disqus:
   enable: false
-  shortname: saplf
+  shortname: Zexus
   count: true
 
 # Hypercomments
@@ -496,10 +496,10 @@ gitment:
   lazy: true # Comments lazy loading with a button
   cleanly: true # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
-  github_user: saplf
-  github_repo: blog
-  client_id: 1040056d08a0430cfca7
-  client_secret: bb467dbf8ebadbdfc5fa332313fe2388134ac0e8
+  github_user: chaosBreaking
+  github_repo: Blogs
+  client_id: 4b68d59aa6ccb6133d33
+  client_secret: f22b050cfe2147ad8545e184e1cb9fd57be835c4
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
@@ -613,8 +613,8 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
-  app_id: LLg4LB1d6FvXxQSfP0kuGJYK-gzGzoHsz
-  app_key: vkqpTQKjA4bzpnKEsk5KsLzz
+  app_id: cduDe6sB0BzMhtOfXTXqd9IX-gzGzoHsz
+  app_key: unRDjxhPWXTTMozsIYx06miK
   security: true
 
 # Another tool to show number of visitors to each article.
