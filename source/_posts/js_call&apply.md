@@ -11,7 +11,7 @@ categories: javascript
 call和apply的作用一样，在特定的作用域调用函数，改变函数**内部**this指向，扩充函数依赖的作用域。
 
 this一般指向调用某个方法的**对象**，使用call和apply方法就可以改变this的指向。
-
+<!-- more -->
 ```javascript
 redLight = {
   color: 'red'

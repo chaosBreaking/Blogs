@@ -135,8 +135,8 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-#cheme: Muse
-scheme: Mist
+cheme: Muse
+# scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
 

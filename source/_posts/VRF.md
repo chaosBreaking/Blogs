@@ -7,11 +7,11 @@ tags:
 categories: Blockchain
 ---
 
-# 哈希函数：
+## 哈希函数：
 
   Result = HASH(Info)
 
-# 带密钥的哈希函数：
+## 带密钥的哈希函数：
 
   Result = HASH(PrivateKey, Info)
 
