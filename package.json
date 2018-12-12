@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "saplf": "npm install && npm-run-all ensure-structure dl-next dl-fancybox dl-pace dl-Han dl-bookmark dl-progress kotlin",
+    "saplf": "cnpm install && npm-run-all ensure-structure dl-next dl-fancybox dl-pace dl-Han dl-bookmark dl-progress kotlin",
     "kotlin": "cp kotlin.js node_modules/highlight.js/lib/languages/kotlin.js",
     "s": "hexo clean && hexo s -p 6057",
     "d": "hexo clean && hexo d",
@@ -17,7 +17,7 @@
     "dl-progress": "git clone https://github.com/theme-next/theme-next-reading-progress themes/next/source/lib/reading_progress"
   },
   "hexo": {
-    "version": "3.7.1"
+    "version": "3.8.0"
   },
   "dependencies": {
     "hexo": "^3.7.1",
