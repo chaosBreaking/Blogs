@@ -1,13 +1,13 @@
 # Blog sources
 
-As you can see, it's a repo of the markdown file of site [https://saplf.github.io](https://saplf.github.io).
+As you can see, it's a repo of the markdown file of site [https://saplf.github.io](https://blog.hyperii.com).
 
 ## Setup
 
 After clone the repo to the laptop/desktop based on Linux/MacOS, run the command
 
 ```bash
-npm run saplf
+npm run nova
 ```
 
 to establish the env. What you should know about the script `saplf` done can be found in the [package.json](./package.json). Besides, you'd better install `yarn` in your system or you should run

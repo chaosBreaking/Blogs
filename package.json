@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "saplf": "cnpm install && npm-run-all ensure-structure dl-next dl-fancybox dl-pace dl-Han dl-bookmark dl-progress kotlin",
+    "nova": "cnpm install && npm-run-all ensure-structure dl-next dl-fancybox dl-pace dl-Han dl-bookmark dl-progress kotlin",
     "kotlin": "cp kotlin.js node_modules/highlight.js/lib/languages/kotlin.js",
     "s": "hexo clean && hexo s -p 6057",
     "d": "hexo clean && hexo d",
