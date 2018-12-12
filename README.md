@@ -1,6 +1,6 @@
 # Blog sources
 
-As you can see, it's a repo of the markdown file of site [https://saplf.github.io](https://blog.hyperii.com).
+As you can see, it's a repo of the markdown file of site [http://blog.hyperii.com](http://blog.hyperii.com).
 
 ## Setup
 
