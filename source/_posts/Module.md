@@ -9,15 +9,13 @@ categories: Node.js
 
 # require函数
 
-![image-20181005205901941](/image-20181005205901941.png)
-
 ##构成  
 
 * resolve	模块路径解析函数，根据传入的模块名来解析出完整路径。
 * main
 * extensions
 * cache    模块缓存，以模块的**完整路径**和**该模块的Module对象**作为K-V存储。
-
+<!-- more -->
 ##导入模块
 
 1.接受模块名称作为输入，使用require.resolve()来完成路径解析

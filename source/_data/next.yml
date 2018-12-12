@@ -135,10 +135,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-cheme: Muse
+# cheme: Muse
 # scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini/
 
 
 # ---------------------------------------------------------------

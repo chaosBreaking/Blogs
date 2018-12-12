@@ -1,5 +1,5 @@
 ---
-title: Note — Node.js设计模式(四)
+title: Note — Node.js设计模式(五)
 date: 2018/11/24 22:22:22
 tags:
   - Node.js
